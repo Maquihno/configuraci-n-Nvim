@@ -66,8 +66,8 @@ nnoremap <Leader>; $a;<Esc>
 nnoremap <Leader>, $a,<Esc>
 
 "Save and Quit
-nnoremap <Leader>s :w<CR>
-nnoremap <Leader>w :q<CR>
+nnoremap <Leader>w :w<CR>
+nnoremap <Leader>q :q<CR>
 
 " shorter commands
 cnoreabbrev tree NERDTreeToggle
@@ -105,7 +105,7 @@ nnoremap <Leader>gl :Git pull<cr>
 nnoremap <Leader>gc :Git commit -m 
 
 " run current file
-"nnoremap <Leader>x :!node %<cr>
+nnoremap <Leader>x :!node %<cr>
 
 " Use <c-space> to trigger completion.
 inoremap <silent><expr> <c-space> coc#refresh()

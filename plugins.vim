@@ -12,6 +12,8 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'morhetz/gruvbox'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'tanvirtin/monokai.nvim'
+Plug 'NLKNguyen/papercolor-theme'
 
 " Tree
 Plug 'preservim/nerdtree'
@@ -47,6 +49,13 @@ Plug 'leafOfTree/vim-matchtag'
 Plug 'luochen1990/rainbow'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'psliwka/vim-smoothie'
+Plug 'mattn/emmet-vim'
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'jparise/vim-graphql'
+
 
 
 " Dev Icons
